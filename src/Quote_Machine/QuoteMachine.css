@@ -1,0 +1,89 @@
+html,
+body {
+  background-color: #eba487;
+  height: 100vh;
+  transition: background-color 1s;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+#wrapper {
+  background-color: white;
+  height: auto;
+  width: 500px;
+  border-radius: 3px;
+  padding: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+#quote-box {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#btn-wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.btn {
+  transition: background-color 1s;
+  outline: none !important;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+#btn-1 {
+  margin-left: 20px;
+}
+
+#btn-2 {
+  color: white;
+  margin-left: 5px;
+}
+
+img {
+  height: 20px;
+  width: 20px;
+}
+
+#logo-2 {
+  height: 40px !important;
+  width: 40px !important;
+}
+
+#author {
+  margin-bottom: 40px;
+}
+
+#text {
+  margin: auto auto;
+  width: 90%;
+  line-height: 1em;
+  font-size: 1.75em;
+  font-weight: 500;
+  color: #eba487;
+}
+
+#author {
+  color: #eba487;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+span {
+  font-size: 4em;
+  position: relative;
+  top: 56px;
+  margin-right: 5px;
+}
+
+#new-quote {
+  color: white;
+  margin-right: 15px;
+}
